@@ -1,0 +1,128 @@
+* {
+	transition: all .1s ease-in;
+	box-sizing: border-box;
+	padding: 0; 
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+
+body {
+	border: 15px solid #2b81ca;
+	background-color: #3399cc;
+	font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+}
+
+header h1 {
+	width: 75%;
+	margin: 0 auto; 
+	height: 75%;
+	font-size: 20px;
+	color: #fff;
+	margin-top: 20px;
+}
+
+footer {
+	width: 75%;
+	margin: 0 auto; 
+	height: 75%;
+	color: #fff;
+	margin-bottom: 90px;
+}
+
+li p {
+	margin-top: 10px;
+	color: rgba(255, 255, 255, 0.5)
+}
+
+.cities {
+	border: 3px solid #fff;
+	width: 75%;
+	margin: 20px auto;
+	margin-top: 15px;
+	font-size: 0px;
+	list-style-type: none;	
+}
+
+.cities li {
+	border: 3px solid #fff;
+	display: inline-block;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+
+.cities:hover li:not(:hover) {
+ opacity: 0.6;
+}
+
+/* .cities:hover {
+	opacity: 0.7;
+}
+
+.cities li:hover {
+	opacity: 1;
+} */
+
+.middle-block {
+	width: 50%;
+}
+
+
+.small-block {
+	width: 25%;
+}
+
+
+.large-block {
+	width: 100%;
+}
+
+.blue {
+	background-color: #3399cc;
+}
+
+.mint {
+	background-color: #33cccc;
+}
+
+.purple {
+	background-color: #996699; 
+}
+
+.red {
+	background-color: #c24747;
+}
+
+.orange {
+	background-color: #e2674a;
+}
+
+.yellow {
+	background-color: #ffcc66;
+}
+
+.light-green {
+	background-color: #99cc99;
+}
+
+.gray {
+	background-color: #669999;
+}
+
+.pink {
+	background-color: #cc6699;
+}
+
+.green {
+	background-color: #339966;
+}
+
+.violet {
+	background-color: #666699;
+}
+
